@@ -14,24 +14,24 @@ export default function About() {
         velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
         occaecat cupidatat non proident
       </p>
-      <ul className="flex w-full justify-evenly text-lg max-sm:text-sm max-sm:grid max-sm:grid-cols-2 max-sm:gap-4 max-sm:px-5 mt-5">
+      <ul className="flex w-full justify-evenly text-lg max-sm:grid max-sm:grid-cols-1 max-sm:gap-10 max-sm:px-5 mt-5">
         <li className="flex flex-col items-center">
-          <BulletMark/>
+          <BulletMark />
           <span className="font-bold mt-3 max-sm:m-0">Full Name</span>
           <span className="font-light">Roshan Kumar</span>
         </li>
         <li className="flex flex-col items-center">
-          <BulletMark/>
+          <BulletMark />
           <span className="font-bold mt-3 max-sm:m-0">Email Address</span>
           <span className="font-light">darkx.dev.23@gmail.com</span>
         </li>
         <li className="flex flex-col items-center">
-          <BulletMark/>
+          <BulletMark />
           <span className="font-bold mt-3 max-sm:m-0">Twitter</span>
           <span className="font-light">@MyTwitterHandle</span>
         </li>
         <li className="flex flex-col items-center">
-          <BulletMark/>
+          <BulletMark />
           <span className="font-bold mt-3 max-sm:m-0">Phone</span>
           <span className="font-light text-nowrap">+91 8804051###</span>
         </li>
