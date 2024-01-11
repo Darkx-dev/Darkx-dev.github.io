@@ -2,7 +2,7 @@
 import Image from "next/image";
 import About from "./pages/about/About";
 import Home_Page from "./pages/home/Home";
-import Skills from "./pages/Skills/Skills";
+import Skills from "./pages/services/Services";
 
 export default function Home() {
   return (
