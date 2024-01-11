@@ -9,7 +9,7 @@ export default function Home_Page() {
             Hi, I am <br /> Roshan Kumar
           </h1>
           <h4 className="text-lg text-[#828282]">Frontend Developer</h4>
-          <div className="text-sm font-medium space-x-2 text-white pt-3">
+          <div className="text-sm font-medium space-x-2 flex text-nowrap text-white pt-3">
             <button className="bg-[#27AE60] px-7 py-2 " type="button">
               Download CV
             </button>
@@ -23,7 +23,7 @@ export default function Home_Page() {
             <div className=" rounded-full">
               <div className="aspect-square rounded-full overflow-hidden">
                 <img
-                  className=" -translate-y-2 w-[90%]"
+                  className="w-[95%]"
                   alt="Logo"
                   src={"/image 3.png"}
                 />

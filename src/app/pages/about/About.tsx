@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div className="text-white flex flex-col items-center w-4/5 max-sm:w-full mx-auto gap-10 pt-20">
       <h1 className="text-5xl font-bold">About</h1>
-      <p className="text-lg max-sm:text-base text-center w-2/3 max-sm:w-10/12 px-10 max-sm:px-0">
+      <p className="text-lg max-sm:text-base text-center w-2/3 max-sm:w-full max-lg:w-full px-10 max-sm:px-5">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
