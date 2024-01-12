@@ -7,7 +7,10 @@ export default function Services() {
   return (
     <div className="flex flex-col gap-16 items-center py-20 max-auto">
       <h1 className="text-5xl font-bold text-white">What i do</h1>
-      <ul className="grid grid-cols-3 max-sm:grid-cols-1 text-[#535353] text-4xl gap-20 max-sm:gap-10 w-[80%] max-sm:w-10/12 font-medium" id="what_i_do">
+      <ul
+        className="grid grid-cols-3 max-sm:grid-cols-1 text-[#535353] text-4xl gap-20 max-sm:gap-10 w-[80%] max-sm:w-10/12 font-medium"
+        id="what_i_do"
+      >
         <li className="flex flex-col gap-8 py-10 px-8 items-start bg-[#212121] border-b-4 border-opacity-0 hover:border-opacity-100 transition-colors border-[#27AE60]">
           <IconPrism />
           <span>
@@ -45,11 +48,9 @@ export default function Services() {
         </li>
         <li>
           <h1 className="text-[#4F4F4F] text-7xl">75%</h1>
-          <span className="text-[#27AE60] text-2xl">React</span>
+          <span className="text-[#27AE60] text-2xl">Next JS</span>
         </li>
       </ul>
     </div>
   );
 }
-
-
