@@ -7,7 +7,7 @@ import ContachMe from "./pages/Contact/ContachMe";
 
 export default function Home() {
   return (
-    <main className="">
+    <main>
       <Home_Page/>
       <About/>
       <Skills/>
