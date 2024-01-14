@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Home_Page() {
   return (
-    <div className="flex max-sm:flex-col-reverse items-center justify-around max-sm:justify-center max-sm:gap-24 px-10 max-sm:px-0 mb-12 h-[80vh]" id="home">
+    <section className="flex max-sm:flex-col-reverse items-center justify-around max-sm:justify-center max-sm:gap-24 px-10 max-sm:px-2 mb-12 h-[80vh]" id="home">
         <div className="space-y-6 max-sm:space-y-3">
           <h1 className="text-5xl max-sm:text-4xl text-white font-bold">
             Hi, I am <br /> Roshan Kumar
@@ -31,6 +31,6 @@ export default function Home_Page() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
   )
 }
