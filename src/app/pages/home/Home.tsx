@@ -25,7 +25,7 @@ export default function Home_Page() {
                 <img
                   className="w-[95%]"
                   alt="Logo"
-                  src={"/image 3.pngz"}
+                  src={"/image 3.png"}
                 />
               </div>
             </div>
