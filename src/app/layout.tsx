@@ -16,9 +16,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className='scrollbar-hide'>
       <head>
-        <link rel="icon" href="./favicon.ico"/>
+        <link rel="icon" href="profileCircle.png" sizes='any'/>
       </head>
       <body className={inter.className}>
         <NavBar/>

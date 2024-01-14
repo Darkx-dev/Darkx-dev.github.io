@@ -4,7 +4,7 @@ import BulletMark from "@/components/BulletMark";
 
 export default function About() {
   return (
-    <div className="text-white flex flex-col items-center w-4/5 max-sm:w-full mx-auto gap-10 pt-20">
+    <section className="text-white flex flex-col items-center w-4/5 max-sm:w-full mx-auto gap-10 pt-20 snap-center">
       <h1 className="text-5xl font-bold">About</h1>
       <p className="text-lg max-sm:text-base text-center w-2/3 max-sm:w-full max-lg:w-full px-10 max-sm:px-5">
         As a frontend web developer, I am dedicated to transforming creative
@@ -37,6 +37,6 @@ export default function About() {
           <span className="font-light text-nowrap">+91 8804051###</span>
         </li>
       </ul>
-    </div>
+    </section>
   );
 }

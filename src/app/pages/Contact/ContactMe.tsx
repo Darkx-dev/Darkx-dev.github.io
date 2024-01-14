@@ -1,6 +1,6 @@
 export default function ContachMe() {
   return (
-    <div className="flex flex-col items-center gap-10 py-10">
+    <section className="flex flex-col items-center gap-10 py-10 snap-center">
       <h1 className="text-5xl text-white font-bold">Get in touch</h1>
       <form action="#" className="flex flex-col items-center w-2/3">
         <div className="grid grid-cols-2 text-sm gap-12 max-sm:gap-8 w-[80%] max-sm:w-full mx-auto font-bold text-white">
@@ -54,6 +54,6 @@ export default function ContachMe() {
           </svg>
         </a>
       </div>
-    </div>
+    </section>
   );
 }

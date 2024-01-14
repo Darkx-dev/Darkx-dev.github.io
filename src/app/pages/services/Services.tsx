@@ -8,7 +8,7 @@ export default function Services() {
     <div className="flex flex-col gap-16 items-center py-20 max-auto">
       <h1 className="text-5xl font-bold text-white">What i do</h1>
       <ul
-        className="grid grid-cols-3 max-sm:grid-cols-1 text-[#535353] text-4xl gap-20 max-sm:gap-10 w-[80%] max-sm:w-10/12 font-medium"
+        className="grid grid-cols-3 text-[#535353] text-4xl gap-20 max-xl:gap-8 max-lg:grid-cols-1 max-sm:gap-10 w-[80%] max-sm:w-10/12 font-medium"
         id="what_i_do"
       >
         <li className="flex flex-col gap-8 py-10 px-8 items-start bg-[#212121] border-b-4 border-opacity-0 hover:border-opacity-100 transition-colors border-[#27AE60]">
@@ -33,7 +33,7 @@ export default function Services() {
         </li>
       </ul>
       <h1 className="text-5xl font-bold text-white">Skills</h1>
-      <ul className="grid gap-22 grid-cols-4 max-sm:grid-cols-1 max-lg:grid-cols-2 max-sm:space-y-10 font-bold text-center bg-[#212121] w-[80%] p-16 border border-[#333333]">
+      <ul className="grid gap-22 grid-cols-4 max-sm:grid-cols-1 max-lg:grid-cols-2 max-sm:space-y-10 max-lg:gap-20 font-bold text-center bg-[#212121] w-[80%] p-16 border border-[#333333]">
         <li className="">
           <h1 className="text-[#4F4F4F] text-7xl">99%</h1>
           <span className="text-[#27AE60] text-2xl">HTML</span>
