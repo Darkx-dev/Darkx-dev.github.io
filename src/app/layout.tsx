@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="./profileCircle.png"/>
+        <link rel="icon" href="./favicon.ico"/>
       </head>
       <body className={inter.className}>
         <NavBar/>
