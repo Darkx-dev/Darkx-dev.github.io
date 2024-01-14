@@ -25,7 +25,7 @@ export default function Home_Page() {
                 <img
                   className="w-[95%]"
                   alt="Logo"
-                  src={"/nextjs-github-pages/image 3.png"}
+                  src={"/image 3.pngz"}
                 />
               </div>
             </div>
